@@ -6,3 +6,4 @@ then
     echo "today is not holiday"
 else
     echo "today is holiday"
+fi
