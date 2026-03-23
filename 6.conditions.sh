@@ -1,5 +1,5 @@
 #!/bin/bash
-DAY=$A
+DAY=$1
 if [ $DAY -eq sunday ]
 then
     echo "today is holiday"
