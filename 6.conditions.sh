@@ -1,8 +1,10 @@
 #!/bin/bash
-DAY=$1
-if [ "$DAY"= "sunday" ]
+
+DAY=$1   # take input from argument
+
+if [ "$DAY" = "sunday" ]
 then
-    echo "today is holiday"
+    echo "Today is holiday"
 else
     echo "Today is not holiday"
 fi
