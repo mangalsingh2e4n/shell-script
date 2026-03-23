@@ -1,6 +1,6 @@
 #!/bin/bash
 DAY=$1
-if [ "$DAY"= sunday ]
+if [ "$DAY"= "sunday"]
 then
     echo "today is holiday"
 else
