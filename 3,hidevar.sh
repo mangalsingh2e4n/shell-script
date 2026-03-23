@@ -2,4 +2,4 @@
 
 echo "enter your username="
 # read -s USERNAME
-echo "entered username is="
+# echo "entered username is="
