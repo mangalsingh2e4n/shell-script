@@ -16,3 +16,11 @@ echo "$FRIEND2::bol be"
 echo "$FRIEND1::kya karra?"
 echo "$FRIEND2::kuch nahi"
 
+#Using arguments
+FRIEND1=$1
+FRIEND2=$2
+
+echo "$FRIEND1::hii re gandu!"
+echo "$FRIEND2::bol be"
+echo "$FRIEND1::kya karra?"
+echo "$FRIEND2::kuch nahi"
