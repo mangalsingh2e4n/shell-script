@@ -1,6 +1,6 @@
 #!/bin/bash
 NUM=$1
-TIMESTAMP=$TIME
+TIMESTAMP=$(TIME)
     echo "the script executed at::$TIMESTAMP"
 LOGS=$LOG
     echo "the log files is ::$LOGS"
