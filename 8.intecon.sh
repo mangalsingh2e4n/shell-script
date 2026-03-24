@@ -2,7 +2,7 @@
 NUM=$1
 TIMESTAMP=$(date)
     echo "the script executed at::$TIMESTAMP"
-LOGS=$LOG
+LOGS=$(log)
     echo "the log files is ::$LOGS"
 if [ $NUM -gt 100 ]
 then
